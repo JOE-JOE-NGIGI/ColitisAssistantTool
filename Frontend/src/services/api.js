@@ -1,7 +1,6 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api"
+  baseURL: "https://colitis-assistant-tool-y6ps.vercel.app/api"
 });
-
 export default API;
